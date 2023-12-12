@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 100vh;
+    text-align: center;
+    background: url(LF_Wide_Back_Stacks.jpg) no-repeat center center/ cover ;
+
+}
+
+.conatainer{
+    width: 550px;
+    height: 450px;
+    margin: 10px auto;
+}
+
+.header{
+    font-size: 1.5rem;
+    border: 2px solid white;
+    color: white;
+    background-color: #262626;
+    width: 50%;
+    margin: 20px auto;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.main-content{
+    background-color: white;
+    width: 50%;
+    height: 300px;
+    padding: 20px 40px;
+    box-shadow: 0 0 20px;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.main-content .quote{
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+
+.main-content .person{
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: red;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.main-content .btn{
+    padding: 10px 15px;
+    background-color: #262626;
+    color: #fff;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+    
+}
+
+
+
+
